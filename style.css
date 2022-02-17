@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+.navbar-items{
+    display: flex;
+    margin-right: 1%;
+    justify-content: right;
+    font-size: x-large;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 1%;
+    color: cyan;
+    border: 1px solid magenta;
+}
+a:hover{
+    background-color: magenta;
+}
+#about{
+    padding: 20%;
+    text-align: center;
+    color: cyan;
+    font-size: xx-large;
+    background-image: url("https://www.impactplus.com/hs-fs/hubfs/how-long-to-develop-a-website.jpg?length=980&name=how-long-to-develop-a-website.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#about h3{
+    color: magenta;
+}
+#skills{
+    padding-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: xx-large;
+    text-align: center;
+}
+#skills table{
+    width: 100%;
+}
+#skills td{
+    background-color: cyan;
+    color: magenta;
+}
+.skill{
+    background-color:black !important ;
+    color: cyan !important;
+}
+#contact{
+    margin: 0%;
+    text-align: center;
+    padding-bottom: 3%;
+    color: cyan;
+    background-color: black;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.contact-items{
+    display: flex;
+    justify-content: space-around;
+}
+#contact a{
+    text-decoration: none;
+    font-size: x-large;
+    color: cyan;
+    padding: 2%;
+}
+.copyright{
+    padding-top: 2%;
+    color: white;
+}
