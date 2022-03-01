@@ -7,7 +7,7 @@ body{
 .navbar{
     width: 100%;
     position: fixed;
-    background-color: #bd5d38;
+    background-color: black;
 }
 .navbar-items{
     display: flex;
@@ -18,16 +18,16 @@ body{
 .navbar a{
     text-decoration: none;
     padding: 1%;
-    color:white;
-    border: 1px solid magenta;
+    color:cyan;
+    background-color: dark gray;
 }
 a:hover{
-    background-color: gray;
+    background-color: magenta;
 }
 #about{
     padding: 20%;
     text-align: center;
-    color: #bd5d38;
+    color: cyan;
     font-size: xx-large;
     background-image: url("https://www.impactplus.com/hs-fs/hubfs/how-long-to-develop-a-website.jpg?length=980&name=how-long-to-develop-a-website.jpg");
     background-repeat: no-repeat;
